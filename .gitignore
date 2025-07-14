@@ -1,4 +1,5 @@
-# Visual Studio 2015 user specific files
+# IDE-specific files
+.idea/
 .vs/
 
 # Compiled Object files
@@ -72,3 +73,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Too large for git
+Content/Effects/Textures/Flipbooks/SmokeSwirl_3_Flipbook_CHANNELPACK.uasset
