@@ -43,7 +43,7 @@ struct FLyraReplicatedAcceleration
 	uint8 AccelXYMagnitude = 0;	//Accel rate of XY component, quantized to represent [0, MaxAcceleration]
 
 	UPROPERTY()
-	int8 AccelZ;	// Raw Z accel rate component, quantized to represent [-MaxAcceleration, MaxAcceleration]
+	int8 AccelZ = 0;	// Raw Z accel rate component, quantized to represent [-MaxAcceleration, MaxAcceleration]
 };
 
 

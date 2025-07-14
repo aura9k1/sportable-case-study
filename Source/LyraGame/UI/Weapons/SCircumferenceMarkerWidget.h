@@ -23,7 +23,7 @@ struct FCircumferenceMarkerEntry
 
 	// The angle to place this marker around the circle (in degrees)
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta=(ForceUnits=deg))
-	float PositionAngle;
+	float PositionAngle = 0.0f;
 
 	// The angle to rotate the marker image (in degrees)
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta=(ForceUnits=deg))
