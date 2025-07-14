@@ -163,10 +163,7 @@ The brief created the task of identifying the hitch in gameplay as well as refac
 
 Unreal Profiler and Insights were used in additional to play-testing with `stat` to identify and trace the problematic execution flow which was incurring a substantial performance cost on the tick time.
 
-### 9. Cook, Compile/Build and Package
-The package was successfully recompiled, cooked and built for Windows.
-
-## Functionality Overview
+#### Functionality Overview
 
 When the user overlaps a `B_WeaponsSpawner` or `B_AbilitySpawner` (child class of the former), a blueprint event `Calculate Items Ammo Count` is fired. This event generates a random integer between 1000 and 100000 and feeds it into a blueprint function called `Item Power Calculator`. 
 
@@ -174,7 +171,7 @@ This function is essentially a Fibonacci Number Generator, however the high inpu
 
 > 🤓 In short, C++ code for this same functionality will incur less code loops vs the Blueprint Virtual Machine (BVM) by a factor of 2-3x, resulting in faster execution time.
 
-## Changes
+#### Changes
 
 The following C++ Blueprint Function Library was created:
 - `ItemPowerCalculator.cpp`
@@ -194,7 +191,7 @@ The following changes were applied:
 
 
 
-## Insights
+#### Insights
 
 Profiler data captured to identify the execution flow and potential source of the problem:
 ![Unreal Profiler Screenshot](./unreal-profiler.png "Unreal Profiler Screenshot")
@@ -202,6 +199,8 @@ Profiler data captured to identify the execution flow and potential source of th
 
 Play-testing as well as running Profiling and Insights tools revealed that the changes were effective:
 ![Unreal Profiler Screenshot](./unreal-profiler-after.png "Unreal Profiler Screenshot")
+
+### 9. Cook, Compile/Build and Package
 
 #### The project was successfully cooked, compiled and built for Windows x64 platform.
 
