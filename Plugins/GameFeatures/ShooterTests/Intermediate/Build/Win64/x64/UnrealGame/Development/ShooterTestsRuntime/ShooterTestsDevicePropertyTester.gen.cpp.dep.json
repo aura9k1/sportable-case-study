@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\josh\\documents\\github\\sportable-case-study\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\unrealgame\\inc\\shootertestsruntime\\uht\\shootertestsdevicepropertytester.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\josh\\documents\\github\\sportable-case-study\\intermediate\\build\\win64\\x64\\lyragame\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\josh\\documents\\github\\sportable-case-study\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\x64\\unrealgame\\development\\shootertestsruntime\\definitions.shootertestsruntime.h",
+            "c:\\users\\josh\\documents\\github\\sportable-case-study\\plugins\\gamefeatures\\shootertests\\source\\shootertestsruntime\\private\\shootertestsdevicepropertytester.h",
+            "c:\\users\\josh\\documents\\github\\sportable-case-study\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\unrealgame\\inc\\shootertestsruntime\\uht\\shootertestsdevicepropertytester.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

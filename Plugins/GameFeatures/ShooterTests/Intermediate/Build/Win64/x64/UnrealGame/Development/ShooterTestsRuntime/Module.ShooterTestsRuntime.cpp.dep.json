@@ -1,16 +1,14 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\unreal projects\\sportable_casestudy\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\x64\\unrealgame\\development\\shootertestsruntime\\module.shootertestsruntime.cpp",
+        "Source": "c:\\users\\josh\\documents\\github\\sportable-case-study\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\x64\\unrealgame\\development\\shootertestsruntime\\module.shootertestsruntime.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\unreal projects\\sportable_casestudy\\intermediate\\build\\win64\\x64\\lyragame\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "c:\\users\\josh\\documents\\github\\sportable-case-study\\intermediate\\build\\win64\\x64\\lyragame\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "d:\\unreal projects\\sportable_casestudy\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\x64\\unrealgame\\development\\shootertestsruntime\\definitions.shootertestsruntime.h",
-            "d:\\unreal projects\\sportable_casestudy\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\unrealgame\\inc\\shootertestsruntime\\uht\\shootertestsdevicepropertytester.gen.cpp",
-            "d:\\unreal projects\\sportable_casestudy\\plugins\\gamefeatures\\shootertests\\source\\shootertestsruntime\\private\\shootertestsdevicepropertytester.h",
-            "d:\\unreal projects\\sportable_casestudy\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\unrealgame\\inc\\shootertestsruntime\\uht\\shootertestsdevicepropertytester.generated.h",
-            "d:\\unreal projects\\sportable_casestudy\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\unrealgame\\inc\\shootertestsruntime\\uht\\shootertestsruntime.init.gen.cpp",
-            "d:\\unreal projects\\sportable_casestudy\\plugins\\gamefeatures\\shootertests\\source\\shootertestsruntime\\private\\shootertestsdevicepropertytester.cpp",
+            "c:\\users\\josh\\documents\\github\\sportable-case-study\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\x64\\unrealgame\\development\\shootertestsruntime\\definitions.shootertestsruntime.h",
+            "c:\\users\\josh\\documents\\github\\sportable-case-study\\plugins\\gamefeatures\\shootertests\\source\\shootertestsruntime\\private\\shootertestsdevicepropertytester.cpp",
+            "c:\\users\\josh\\documents\\github\\sportable-case-study\\plugins\\gamefeatures\\shootertests\\source\\shootertestsruntime\\private\\shootertestsdevicepropertytester.h",
+            "c:\\users\\josh\\documents\\github\\sportable-case-study\\plugins\\gamefeatures\\shootertests\\intermediate\\build\\win64\\unrealgame\\inc\\shootertestsruntime\\uht\\shootertestsdevicepropertytester.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\inputdevicesubsystem.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\inputsettings.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerinput.h",
@@ -27,7 +25,7 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\shapecomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\capsulecomponent.generated.h",
-            "d:\\unreal projects\\sportable_casestudy\\plugins\\gamefeatures\\shootertests\\source\\shootertestsruntime\\private\\shootertestsruntimemodule.cpp"
+            "c:\\users\\josh\\documents\\github\\sportable-case-study\\plugins\\gamefeatures\\shootertests\\source\\shootertestsruntime\\private\\shootertestsruntimemodule.cpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

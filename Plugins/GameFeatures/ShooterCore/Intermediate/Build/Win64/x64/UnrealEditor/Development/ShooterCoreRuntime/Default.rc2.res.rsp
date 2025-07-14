@@ -71,9 +71,9 @@
 /DORIGINAL_FILE_NAME="UnrealEditor-ShooterCoreRuntime.dll"
 /DBUILT_FROM_CHANGELIST=29314046
 /DBUILD_VERSION=++UE5+Release-5.3-CL-29314046
-/DBUILD_ICON_FILE_NAME="\"C:\\Users\\Josh\\Desktop\\Sportable_CaseStudy_test\\Sportable_CaseStudy\\Build\\Windows\\Application.ico\""
+/DBUILD_ICON_FILE_NAME="\"C:\\Users\\Josh\\Documents\\GitHub\\sportable-case-study\\Build\\Windows\\Application.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME=Lyra
 /DPROJECT_PRODUCT_IDENTIFIER=Sportable_CaseStudy
-/fo "C:\Users\Josh\Desktop\Sportable_CaseStudy_test\Sportable_CaseStudy\Plugins\GameFeatures\ShooterCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\ShooterCoreRuntime\Default.rc2.res"
+/fo "C:\Users\Josh\Documents\GitHub\sportable-case-study\Plugins\GameFeatures\ShooterCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\ShooterCoreRuntime\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
