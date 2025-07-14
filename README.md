@@ -1,5 +1,3 @@
-# sportable-case-study
- test project for sportable
 # Sportable Case Study Test
 - Applicant: Josh Paddy
 - Date: 14 July 2025
