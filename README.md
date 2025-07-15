@@ -45,7 +45,7 @@ and place it in the `Content/Effects/Textures/Flipbooks/` directory.
 
 ## Software
 
-- Windows 11 Workstation Pro 32H2
+- Windows 11 Workstation Pro 23H2
 - Unreal Engine 5.3.2
 - Visual Studio 2022 Community Edition
 
@@ -63,7 +63,7 @@ My first steps were to familiarise myself with the project and its directory str
 
 - Examine debug logs thoroughly
 - Take note of comments and tasks in code files
-- Identify potential blueprint loops and poor coding structures
+- Identify potential blueprint issues and poor coding principles
 - Use tools like Profiling and Insights as well as command line level tools like `stat` do determine consistent performance drops
 
 Upon reviewing crash, debug and build logs as well as look into `Saved` and `Intermediate` assets, I had ascertained some assets that I would review first:
@@ -218,8 +218,9 @@ Play-testing as well as running Profiling and Insights tools revealed that the c
     - Applied missing code
     - Fixed variable initialization issues
     - Removed redundant code
+    - Converted blueprint code to C++
 - Blueprints
-    - Deprecated non-functional nodes and corresponding event and function
+    - Replaced blueprint function with C++ function
 
 - Project-level
     - Removed unused plugins
@@ -235,7 +236,7 @@ The Blueprint Function Library could be relocated to a more appropriate module�
 
 ## Full C++ Transition
 The Calculate Items Ammo Count event can be migrated to C++ for full native execution.
-```
+```cpp
 //header file
 int32 RandomValue = UKismetMathLibrary::RandomIntegerInRange(1000, 100000);
 int32 AmmoCount = UItemPowerCalculator::ItemPowerCalculator(RandomValue);
@@ -246,7 +247,7 @@ void CalculateItemsAmmoCount();
 ```
 ## Input Validation
 Future-proofing the Fibonacci function with basic input checks improves code robustness and debuggability (assuming this is the desired functionality).
-```
+```cpp
 int32 UItemPowerCalculator::ItemPowerCalculator(int32 n)
 {
     //don't allow negative n's
@@ -273,4 +274,4 @@ int32 UItemPowerCalculator::ItemPowerCalculator(int32 n)
 
 ---
 
-**The project demonstrates my ability to diagnose, refactor, and optimize within the Unreal Engine ecosystem—combining engineering rigor with clear documentation and an iterative mindset.**
+**The project demonstrates my ability to diagnose, refactor, and optimize within the Unreal Engine ecosystem — combining engineering rigor with clear documentation and an iterative mindset.**
